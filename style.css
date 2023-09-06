@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+a{
+    text-decoration: none;
+}
+body {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #000002;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+#img-inicio {
+    width: 10%;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 70vh !important;
+    background: url(img/img1.jpg) no-repeat center;
+    background-size:cover;
+}
+
+.title {
+    place-content: center;
+    font-size: 120px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1453db;
+    -webkit-text-stroke: 5px black;
+}
+
+.title2 {
+    padding: 3% 0;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1453db;
+}
+
+.title3 {
+    padding: 2% 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1453db;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #bfc1db;
+    padding: 0 15%;
+}
+
+.contact {
+    height: 40vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    place-content: center;
+}
+
+.box-container .box {
+    height: 18rem;
+    width: 18rem;
+    background: #000002;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    margin: 2rem; 
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #1453db;
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.miniicons {
+    width: 30%;
+    padding: 5% 0 0 0;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #000002;
+}
+
+.price {
+    background: url(img/img2.jpg) no-repeat center;
+    background-attachment:cover;
+    background-size: cover;
+    text-align: center;
+    height: auto;
+    min-height:14cm;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #000002;
+    padding-bottom: 0;
+}
+
+textarea{
+    background-color: #000002;
+    border: 1px solid #ffffff ;
+    padding: 2%;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn-enviar{
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+    color: #1453db;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom:4%;
+    font-family: 'Roboto Slab', serif;
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
