@@ -55,9 +55,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.header {
     height: 70vh !important;
     background: url(img/img3.jpg) no-repeat center;
     background-size: cover;
