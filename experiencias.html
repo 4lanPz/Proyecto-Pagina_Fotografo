@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="styleexperiencias.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>ENFOCANDO SUEÑOS</title>
 
 </head>
@@ -14,35 +15,40 @@
         <div class="logo">
         </div>
         <nav class="navbar">
+            <a href="index.html">INICIO</a>
             <a href="cursos.html">CURSOS</a>
             <a href="mio.html">MIS FOTOS</a>
             <a href="contacto.html">CONTACTAME</a>
-            <a href="experiencias.html">EXPERIENCIAS</a>
         </nav>
     </div>
 
     <header class="content header">
-        <h2 class="title">ENFOCANDO<br> SUEÑOS</h2>
+        <h2 class="title">EXPERIENCIAS</h2>
     </header>
     <section class="content price">
     <div class="box-container">
-        <div class="box">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" class="box">
             <h3><br>ALUMNO 1</h3>
             <p><br>experiencia del alumno</p>
         </div>
-        <div class="box">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" class="box">
             <h3><br>ALUMNO 2</h3>
             <p><br>experiencia del alumno</p>
         </div>
-        <div class="box">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom" class="box">
             <h3><br>ALUMNO 3</h3>
             <p><br>experiencia del alumno</p>
         </div>
-        <div class="box">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="center-center" class="box">
             <h3><br>ALUMNO 4</h3>
             <p><br>experiencia del alumno</p>
         </div>
-        <div class="box">
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" class="box">
             <h3><br>ALUMNO 5</h3>
             <p><br>experiencia del alumno</p>
         </div>
@@ -50,7 +56,11 @@
 </section>
 
     <section class="content contact">
-        <a href="index.html"><h2 class="title3">VOLVER AL INICIO</h2></a>
+        <a href="index.html"><h2 data-aos="fade-up" data-aos-duration="1000" class="title3">VOLVER AL INICIO</h2></a>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +11,11 @@
 a{
     text-decoration: none;
 }
+
 body {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color: #000002;
 }
 
 .head {
@@ -19,7 +23,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #171717;
+    background: #000002;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -32,13 +36,6 @@ body {
 
 .logo {
     margin-left: 30px;
-}
-
-.logo a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
 }
 
 .navbar a {
@@ -58,23 +55,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .header {
-    height: 60vh !important;
+    height: 70vh !important;
     background: url(img/img3.jpg) no-repeat center;
     background-size: cover;
 }
 
 .title {
-    margin-bottom: 40px;
-    font-size: 120px;
+    padding: 0 20% 0 20%;
+    font-size: 100px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
-    color: #fff;
-    -webkit-text-stroke: 2px black;
+    color: #1453db;
+    -webkit-text-stroke: 3px black;
 }
 
 .title2 {
@@ -82,47 +77,21 @@ body {
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #fff;
+    color: #1453db;
 }
 
 .title3 {
-    margin-bottom: 40px;
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #fff;
+    color: #1453db;
 }
 
 p {
-    margin-bottom: 40px;
-    font-size: 18px;
+    margin-bottom: 20px;
+    font-size: 20px;
     color: #fff;
-    padding: 0 100px;
 }
-
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid #9c27b0;
-    color: #fff;
-    text-decoration: none;
-    background: #9c27b0;
-}
-
-.btn:hover {
-    background: none;
-    
-}
-
-.btn-home {
-    display: flex;
-}
-
-.btn-home a {
-    margin: 0 10px;
-}
-
 
 .content {
     height: 50vh;
@@ -139,17 +108,11 @@ p {
     align-items: center;
 }
 
-.sau {
-    padding: 30px;
-    background: #1f1d1d
-}
-
 .box-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-
 }
 
 .box-container .box {
@@ -169,13 +132,11 @@ p {
     background: #9c27b0;
     font-size: 2rem;
     margin: 1rem 0;
-
 }
 
 .box-container .box h3 {
     font-size: 20px;
     color: #9c27b0;
-
 }
 
 .box-container .box p {
@@ -184,7 +145,9 @@ p {
 }
 
 .about {
-    background: #171717;
+    padding: 0 12% 0 12%;
+    background: #000002;
+    height: 40vh;
 }
 
 .price {
@@ -196,10 +159,17 @@ p {
     min-height:14cm;
 }
 
-
 .contact {
-    padding-top: 20px;
-    background: #171717;
-    padding-bottom: 0;
+    height: 30vh !important;
+    background: #000002;
 }
 
+@media (min-width: 500px) {
+    p {
+        padding: 0 !important;
+    }
+}
+
+.title3:hover{
+    background: #3f3f3f;
+}
